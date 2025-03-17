@@ -1,7 +1,12 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('./fonts/CassandraPersonalUseRegular-3BjG') format('ttf'),
-       url('./fonts/CassandraPersonalUseRegular-3BjG') format('ttf');
+  src: url('./assets/fonts/CassandraPersonalUseRegular-3BjG.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Import Tailwind's preflight styles */
+@import 'tailwindcss/preflight'; 
+
+/* Use Tailwind's utilities */
+@tailwind utilities;

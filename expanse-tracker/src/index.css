@@ -1,1 +1,2 @@
-@import "tailwindcss";
+@import 'tailwindcss/preflight'; /* This is for base styles */
+@tailwind utilities; /* This remains as is */
