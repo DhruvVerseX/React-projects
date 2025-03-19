@@ -1,15 +1,16 @@
-import React from 'react'
-import { Header } from './components/header'
+import React from 'react';
 import './App.css';
-import { Balance } from './components/Balance';
 
 function App() {
-
   return (
-    <div>
-      <Header/>
+    <div className="w-full min-h-screen bg-slate-500 text-white flex flex-col items-center justify-center">
+      <h1 className="text-3xl font-bold">Expense Tracker</h1>
+      
+      <div className="mt-4">
+        <h3 className="uppercase">Your Balance</h3>
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
