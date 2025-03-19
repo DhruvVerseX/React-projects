@@ -1,2 +1,11 @@
-@import 'tailwindcss/preflight'; /* This is for base styles */
-@tailwind utilities; /* This remains as is */
+@font-face {
+    font-family: 'Cassandra';
+    src: url('./assets/fonts/CassandraPersonalUseRegular-3BjG.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  

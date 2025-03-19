@@ -1,11 +1,16 @@
 import React from 'react'
+import { Balance } from './Balance'
+import { Boxes} from './Boxes'
 
 export const Header = () => {
   return (
-    <header className='bg-amber-100 h-screen flex justify-center items-center '>
-         <div className='font-coustom text-3xl '>
-         <h1 class="font-custom text-4xl">Hello with MyCustomFont!</h1>
-        <h2>Expense Tracker</h2>
+    <header className='bg-amber-200 h-screen flex justify-center items-center '>
+      <div>
+        <h1 children='flex item-center align-center'>
+          Expanse Tracker
+        </h1>
+        <Balance/>
+        <Boxes/>
     </div>
     </header>
    
