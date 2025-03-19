@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         cassandra: ["Cassandra", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
