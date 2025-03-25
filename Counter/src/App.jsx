@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="min-h-screen p-4 flex items-center justify-center bg-slate-300">
-      <div className="h-[32rem] w-[36rem] backdrop-blur-lg bg-white rounded-2xl shadow-2xl flex flex-col gap-2">
+      <div className="h-[32rem] w-[36rem] backdrop-blur-lg bg-white rounded-2xl shadow-2xl flex flex-col ">
         <h1 className="flex items-center justify pl-5 pt-5 text-2xl font-bold">
           Advanced Counter
         </h1>
@@ -52,7 +52,7 @@ function App() {
           A feature-rich counter with history tracking
         </h5>
         <div className="flex items-center justify-center mt-5">
-          <div className="w-[32rem] h-[4rem] gap-8 pl-5 flex flex-row items-center justify-center rounded-2xl bg-gray-200">
+          <div className="w-[34rem] h-[4rem] gap-8 pl-5 flex flex-row items-center justify-center rounded-2xl bg-gray-200">
             <button
               className="border-gray-400 shadow-md px-6 py-3 rounded-full text-lg font-semibold hover:bg-slate-100"
               onClick={() => setCount(count - stepSize)}
@@ -77,7 +77,7 @@ function App() {
           </div>
         </div>
         <div>
-          <div className="flex rounded-lg m-3 overflow-hidden bg-slate-100 mb-6">
+          <div className="flex rounded-lg m-4 overflow-hidden bg-gray-200 mb-6">
             <button className="flex-1 py-2 px-4 text-center font-medium hover:bg-gray-300">
               Controls
             </button>
@@ -88,7 +88,7 @@ function App() {
               History
             </button>
           </div>
-          <div className="bg-gray-300 m-4 h-[14rem] rounded-2xl">
+          <div className="bg-gray-200 m-4 h-[14rem] rounded-2xl">
             
             <div className="flex justify-between p-2">
               <h2 className="font-bold flex items-start" htmlFor="temp">
@@ -106,7 +106,7 @@ function App() {
               onChange={(e) => setStepSize(Number(e.target.value))}
             />
             
-            <div className="flex flex-row items-center justify-evenly p-4">
+            <div className="flex flex-row items-center text-sm justify-evenly p-4">
               <button
                 className="h-[2rem] shadow-2xl bg-slate-100 border-gray-800 rounded w-[14rem] hover:bg-black hover:text-white"
                 onClick={Reset}
